@@ -1,0 +1,77 @@
+html, body{
+    background-color: #1c1c1c;
+    width: 99%;
+    height: 99%;
+    color: #03A062;
+    font-family: 'Pixelify Sans', sans-serif;
+    /* 100% width and height add scroll bars for some reason */
+}
+body{
+    animation: fadeIn 0.75s linear 0s 1 normal forwards;
+}
+
+p{
+    font-size: 40px;
+    text-align: justify;
+}
+
+main{
+    width: 77%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+img{
+    height: 30%;
+    width: auto;
+}
+
+#title h1{
+    color: #03A062;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    height: 100%;
+}
+#wrapper button{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+    color: #03A062;
+    background-color: #373737;
+    width: 40%;
+    margin-top: 70px;
+    height: 100px;
+}
+#wrapper button:hover{
+    background-color: #141414;
+}
+#wrapper p{
+    font-size: 24px;
+    text-align: left;
+}
+a{
+    color: #0359a0;
+    text-decoration: none;
+}
+a:hover{
+    animation: glow 0.5s linear 0s infinite alternate;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes glow{
+    0%{color: #0359a0;opacity: 1;}
+    100%{color: #02dab6;opacity: 1;}
+}
